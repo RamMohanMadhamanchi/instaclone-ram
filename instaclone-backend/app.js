@@ -20,7 +20,7 @@ const upload = multer({ storage: storage});
 
 async function connectDB() {
     try {
-        return await mongoose.connect('MOngoDB Link Here');
+        return await mongoose.connect('MongoDB Link Here');
     } catch(e) {
         console.log(e);
         throw error('DB connection failed');
