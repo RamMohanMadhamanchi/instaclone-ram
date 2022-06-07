@@ -20,7 +20,7 @@ const upload = multer({ storage: storage});
 
 async function connectDB() {
     try {
-        return await mongoose.connect('mongodb+srv://admin:admin@instaclone.ilkbm.mongodb.net/?retryWrites=true&w=majority');
+        return await mongoose.connect('MOngoDB Link Here');
     } catch(e) {
         console.log(e);
         throw error('DB connection failed');
