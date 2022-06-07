@@ -1,0 +1,23 @@
+.landingPage {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}  
+.landingPage img {
+    width: 30%;
+}
+.landingPageDescription {
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5%;
+}  
+.btn {
+    color: green;
+    padding: 3%;
+    border: 1px solid green;
+    border-radius: 5px;
+    text-decoration: none;
+}
